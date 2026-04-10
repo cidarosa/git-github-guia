@@ -65,7 +65,7 @@ Repetir os passos para a próxima aula, criar uma nova `branch` a partir da `mai
 
 ### Commit Vazio
 
-git checkout <branch-name>
+git checkout branch-name
 
 git commit --allow-empty -m "chore: rerun force"
 
