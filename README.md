@@ -59,3 +59,14 @@ git push origin main
 7. `git push origin main`: enviar as alterações da `main` para o `GitHub`.
 
 Repetir os passos para a próxima aula, criar uma nova `branch` a partir da `main` já atualizada (`git checkout -b aula02`, por exemplo), e repitir o processo.
+
+
+***
+
+### Commit Vazio
+
+git checkout <branch-name>
+
+git commit --allow-empty -m "chore: rerun force"
+
+git push
