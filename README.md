@@ -29,6 +29,10 @@ https://github.com/acnaweb/git
 ```bash
 git checkout -b <branch-name>
 
+# ou
+
+git switch -c <branch-name>
+
 git add .
 
 git commit -m "description"
@@ -65,8 +69,10 @@ Repetir os passos para a próxima aula, criar uma nova `branch` a partir da `mai
 
 ### Commit Vazio
 
-git checkout branch-name
+```bash
+git checkout <branch-name>
 
 git commit --allow-empty -m "chore: rerun force"
 
 git push
+```
